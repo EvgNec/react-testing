@@ -1,3 +1,6 @@
+import Painting from "./Painting";
+import paintin from './pic.json';
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,21 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      Привіт жіночка
+  <Painting
+    url={paintin[0].url}
+    title={paintin[0].title}
+    authorName={paintin[0].author.tag}
+    picUrl={paintin[0].author.url}
+    price={paintin[0].price}
+      />
+      
+        <Painting
+    url={paintin[1].url}
+    title={paintin[1].title}
+    authorName={paintin[1].author.tag}
+    picUrl={paintin[1].author.url}
+    price={paintin[1].price}
+  />
     </div>
   );
 };
