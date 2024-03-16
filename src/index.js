@@ -9,7 +9,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );*/
 import ReactDOM from 'react-dom';
-
+import pic from './components/pic.json';
+/*
 const data =
 {
   id: "id-1",
@@ -21,7 +22,8 @@ const data =
     url: "https://pixabay.com/users/ractapopulous-24766/"
   },
   quantity: 10,
-};
+};*/
+const data = pic[1];
 
 const painting = (
 <div>
