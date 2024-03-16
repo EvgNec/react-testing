@@ -12,26 +12,28 @@ import ReactDOM from 'react-dom';
 
 const data =
 {
-  "username": "Jacques Gluke",
-  "tag": "jgluke",
-  "location": "Ocho Rios, Jamaica",
-  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
-  "stats": {
-    "followers": 5603,
-    "views": 4827,
-    "likes": 1308
-  }
-}
+  id: "id-1",
+  url: "https://cdn.pixabay.com/photo/2018/10/22/17/11/cat-3765805_960_720.jpg",
+  title: "Pic1",
+  price: 500,
+  author: {
+    tag: "iractapopulous",
+    url: "https://pixabay.com/users/ractapopulous-24766/"
+  },
+  quantity: 10,
+};
 
 const painting = (
 <div>
-  <img src="" alt="" width="480"/>
-  <h2></h2>
+  <img src={data.url} alt={data.title} width="480"/>
+  <h2>{data.title}</h2>
   <p>
-    Author: <a href=""></a>
+      Author: <a href={data.author.url}>{data.author.tag}</a>
   </p>
-  <p>Price: credit</p>
+  <p>Price: {data.price} EUR</p>
   <p>Stock: instock or null</p>
   <button type="button">Add</button>
 </div>
 );
+
+ReactDOM.render(painting, document.querySelector('#root'));
