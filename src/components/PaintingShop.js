@@ -17,5 +17,10 @@ export default function PaintingShop(props) {
 };
 
 PaintingShop.propTypes = {
-urlImg: PropTypes.string
+    urlImg: PropTypes.string,
+    title: PropTypes.string,
+    picUrl: PropTypes.string,
+    Delivery: PropTypes.string,
+    price: PropTypes.number,
+    inStock:PropTypes.number,
 };
