@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import defaultImg from './no_img.jpg'; 
 
 export default function PaintingShop(props) {
@@ -13,4 +14,8 @@ export default function PaintingShop(props) {
   <button type="button">Add</button>
 </div>
  )
+};
+
+PaintingShop.propTypes = {
+urlImg: PropTypes.string
 };
