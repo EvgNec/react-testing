@@ -27,6 +27,13 @@ export const App = () => {
     authorName={paintin[1].author.tag}
     picUrl={paintin[1].author.url}
     price={paintin[1].price}
+      />
+              <Painting
+    url={paintin[2].url}
+    title={paintin[2].title}
+    authorName={paintin[2].author.tag}
+    picUrl={paintin[2].author.url}
+    price={paintin[2].price}
   />
     </div>
   );

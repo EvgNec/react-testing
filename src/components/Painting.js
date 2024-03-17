@@ -1,5 +1,7 @@
+import defaultImg from './no_img.jpg'; 
+
 export default function Painting(props) {
-  const { url, title, picUrl, authorName = 'noName', price } = props;
+  const { url = defaultImg, title, picUrl, authorName = 'noName', price } = props;
  return  (<div>
   <img src={url} alt={title} width="480"/>
    <h2>{props.title}</h2>
