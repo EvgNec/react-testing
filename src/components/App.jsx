@@ -1,5 +1,5 @@
-import Painting from "./Painting";
-import paintin from './pic.json';
+/*import Painting from "./Painting";
+import paintin from './pic.json';*/
 import imgShop from '../components/shop/img.json';
 import PainShop from "./PaintingShop";
 export const App = () => {
