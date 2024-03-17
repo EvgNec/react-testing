@@ -1,0 +1,35 @@
+[
+{
+  "id": "id-1",
+  "url": "https://nowystyl.ua/media/catalog/product/cache/7efb9f823314b9f14942fe9ec7bfc8bd/h/e/hexter_xr_r4d_mpd_mb70_01.jpg",
+  "title": "Крісло HEXTER XR R4D MPD MB70 01",
+  "price": 9939,
+  "descr": {
+    "tag": "NS",
+    "url": "https://nowystyl.ua/hexter-xr-r4d-mpd-mb70-01"
+  },
+  "quantity": 10
+},
+{
+  "id": "id-2",
+  "url": "https://nowystyl.ua/media/catalog/product/cache/7efb9f823314b9f14942fe9ec7bfc8bd/h/e/hexter_ml_r1d_tilt_pl70_eco01_black_red_fr_34_1.jpg",
+  "title": "Крісло HEXTER ML FR R1D TILT PL70 ECO/01",
+  "price": 7419,
+  "descr": {
+    "tag": "NS",
+    "url": "https://nowystyl.ua/kreslo-hexter-ml-fr-r1d-tilt-pl70-eco-01"
+  },
+  "quantity": 10
+},
+{
+  "id": "id-3",
+  "url": "https://nowystyl.ua/media/catalog/product/cache/7efb9f823314b9f14942fe9ec7bfc8bd/h/e/hexter_ml_fab-01_yellow_fr_34_1_1.jpg",
+  "title": "Крісло HEXTER ML FR R1D TILT PL70 FAB/01",
+  "price": 7419,
+  "descr": {
+    "tag": "NS",
+    "url": "https://nowystyl.ua/hexter-ml-fr-r1d-tilt-pl70-fab-01"
+  },
+  "quantity": 10
+}
+]

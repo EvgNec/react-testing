@@ -1,6 +1,38 @@
 import Painting from "./Painting";
 import paintin from './pic.json';
-
+import imgShop from '../components/shop/img.json';
+import PainShop from "./PaintingShop";
+export const App = () => {
+  return (
+    <div>
+      <PainShop
+        urlImg={imgShop[0].url}
+        title={imgShop[0].title}
+        picUrl={imgShop[0].descr.url}
+        Delivery={imgShop[0].descr.tag}
+        price={imgShop[0].price}
+        inStock={imgShop[0].quantity}
+      />
+            <PainShop
+        urlImg={imgShop[1].url}
+        title={imgShop[1].title}
+        picUrl={imgShop[1].descr.url}
+        Delivery={imgShop[1].descr.tag}
+        price={imgShop[1].price}
+        inStock={imgShop[1].quantity}
+      />
+            <PainShop
+        urlImg={imgShop[2].url}
+        title={imgShop[2].title}
+        picUrl={imgShop[2].descr.url}
+        Delivery={imgShop[2].descr.tag}
+        price={imgShop[2].price}
+        inStock={imgShop[2].quantity}
+      />
+    </div>
+  )
+};
+/*
 export const App = () => {
   return (
     <div
@@ -12,7 +44,7 @@ export const App = () => {
         fontSize: 40,
         color: '#010101'
       }}
-    >
+    >      
   <Painting
     url={paintin[0].url}
     title={paintin[0].title}
@@ -37,4 +69,4 @@ export const App = () => {
   />
     </div>
   );
-};
+};*/
