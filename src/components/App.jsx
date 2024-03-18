@@ -1,14 +1,11 @@
-// import imgShop from '../components/shop/img.json';
-// import PainingList from "./PaintingList";
-import imgFriend from './FriendList/friends.json';
-import FriendList from "./FriendList/FriendList";
+
+import Section from "./Section";
 
 export const App = () => {
   return (
     <div>
-{<FriendList items={imgFriend}/>}
+<Section title="Header"/>
 
-    {/* <PainingList items={imgShop}/> */}
     </div>
   )
 };
