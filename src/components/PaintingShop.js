@@ -9,7 +9,8 @@ export default function PaintingShop(props) {
   <p>
      Delivery: <a href={picUrl}>{Delivery}</a>
   </p>
-  <p>Price: {price} UAH</p>
+     <p>Price: {price} UAH</p>
+     <p>In Stock: {inStock < 10 ? 'finished' : 'big stock'}</p>
      <p>Stock: {inStock}</p>
   <button type="button">Add</button>
 </div>
