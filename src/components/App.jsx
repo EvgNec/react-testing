@@ -5,30 +5,18 @@ import PainShop from "./PaintingShop";
 export const App = () => {
   return (
     <div>
+      {imgShop.map(img => (
       <PainShop
-        urlImg={imgShop[0].url}
-        title={imgShop[0].title}
-        picUrl={imgShop[0].descr.url}
-        Delivery={imgShop[0].descr.tag}
-        price={imgShop[0].price}
-        inStock={imgShop[0].quantity}
+        urlImg={img.url}
+        title={img.title}
+        picUrl={img.descr.url}
+        Delivery={img.descr.tag}
+        price={img.price}
+        inStock={img.quantity}
       />
-            <PainShop
-        urlImg={imgShop[1].url}
-        title={imgShop[1].title}
-        picUrl={imgShop[1].descr.url}
-        Delivery={imgShop[1].descr.tag}
-        price={imgShop[1].price}
-        inStock={imgShop[1].quantity}
-      />
-            <PainShop
-        urlImg={imgShop[2].url}
-        title={imgShop[2].title}
-        picUrl={imgShop[2].descr.url}
-        Delivery={imgShop[2].descr.tag}
-        price={imgShop[2].price}
-        inStock={imgShop[2].quantity}
-      />
+      ))
+
+      }
     </div>
   )
 };
