@@ -1,14 +1,14 @@
-import imgShop from '../components/shop/img.json';
-import PainingList from "./PaintingList";
-import imgFriend from './FriendList/friends.json';
-import FriendList from "./FriendList/FriendList";
+import PropTypes from 'prop-types';
 
-export default function Section({title}) {
+export default function Section({ title, children }) {
   return (
-      <div>
-          <h2>{title}</h2>
-          <FriendList items={imgFriend}/>
-    <PainingList items={imgShop}/>
-   </div>
+    <div>
+      {title && <h2>{title}</h2>}
+      {children}
+    </div>
   );
+}
+
+Section.propTypes = {
+  title: PropTypes.string,
 };
